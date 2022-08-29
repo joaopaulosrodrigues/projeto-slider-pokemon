@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Pokémon Slider - DevWeek </title>
+
+    <link rel="shortcut icon" href="src/imagens/pokebola.png" type="image/x-icon">
+
+    <!--Link rel = "stylesheet type "text/css href=" .css"-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+
+</head>
+<body>
+<!--header tag semântica de cabeçalho-->
+
+ 
+        <header class="cabecalho">
+
+       <img src="src/imagens/pokebola.png" alt="pokébola" class="pokebola"/>
+
+       <h1 class="titulo">Deck de Pokemons</h1>
+    </header>
+    
+    <!--tag main é a teg de inform,ação secundária-->
+    <main class="pokemon-slider">
+
+        <!--button tag interatica de botões-->
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="src/imagens/seta.png" alt="seta voltar">
+        </button>
+
+        <ul class="lista-pokemons">
+            <li class="cartao selecionado fundo1">
+                <div class="informacoes">
+                    <h2 class="nome">Pikachu</h2>
+                    <p class="vida">HP 300</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/pikachu.png" alt="Pikachu" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Pikachu é um tipo de Pokémon elétrico: os bolsos em suas bochechas, identificado por discos vermelhos que decoram, são capazes de gerar choques elétricos de intensidade variável, chegando até o nível de poder de um raio. Eles também o usam para se defender.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo2">
+                <div class="informacoes">
+                    <h2 class="nome">Charizard</h2>
+                    <p class="vida">HP 800</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/charizard.png" alt="Charizard" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Charizard é um Pokémon dracônico e bípede . É principalmente laranja com uma parte inferior creme do peito até a ponta da cauda. Tem um pescoço longo, pequenos olhos azuis, narinas ligeiramente levantadas e duas estruturas semelhantes a chifres saindo da parte de trás de sua cabeça retangular. Existem duas presas visíveis na mandíbula superior quando a boca está fechada. Duas grandes asas com partes inferiores azul-esverdeadas brotam de suas costas, e um apêndice em forma de chifre se projeta do topo da terceira articulação de cada asa. Um único dedo da asa é visível através do centro de cada membrana da asa.</p>
+                </div>
+            </li>
+            
+            <li class="cartao fundo3">
+                <div class="informacoes">
+                    <h2 class="nome">Mewtwo</h2>
+                    <p class="vida">HP 1200</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/mewtwo.png" alt="Mewtwo" class="imagem-pokemon">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">
+                        Mewtwo o pokémon genético, o pokémon que foi clonado geneticamente do Mew, o poder sientifico dos humanos não conseguiu dar a ele um coração compassivo, geralmente permanece imóvel para conservar suas energias, de forma que possa liberar seu poder total em batalha.</p>
+                </div>
+            
+            </li>
+
+        
+             <li class="cartao fundo4">
+                <div class="informacoes">
+                    <h2 class="nome">Serperior</h2>
+                    <p class="vida">HP 700</p>
+                </div>
+            
+                 <div class="container-imagem">
+                    <img src="src/imagens/serperior.png" alt="Serperior" class="imagem-pokemon">
+                </div>
+            
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                     <p class="texto">
+                       Serperior (Japonês: ジャローダ Jalorda) é uma espécie de Pokémon do tipo Planta, introduzida na 5ª Geração e classificada oficialmente como Royal Pokémon. É a forma evoluída de Servine e a forma final de Snivy, um dos Pokémon iniciais entregues pela Professora Juniper na região de Unova..</p>
+                </div>
+
+            </li>
+
+            <li class="cartao fundo5">
+                <div class="informacoes">
+                     <h2 class="nome">Milotic</h2>
+                    <p class="vida">HP 700</p>
+                </div>
+                                    
+                <div class="container-imagem">
+                    <img src="src/imagens/milotic.png" width="500px" alt="Milotic" class="imagem-pokemon">
+                </div>
+                                    
+                <div class="descricao">
+                  <h3 class="titulo">Descrição</h3>
+                     <p class="texto"> Milotic é um Pokémon famoso por sua beleza, escrituras antigas relatam a história de uma bela moça, que ao sentir tanta pena ao encontrar um Feebas, chorou e suas lágrimas fizeram o Feebas se transformar em um belo Pokémon. Desde então todas as pessoas de todos os continentes, se admiram e param para olhar a beleza de Milotic.
+                     </p>
+
+                </div>
+            </li>
+    
+            <li class="cartao fundo5">
+                <div class="informacoes">
+                    <h2 class="nome">Corsola</h2>
+                    <p class="vida">HP 250 </p>
+                </div>
+                                        
+                <div class="container-imagem">
+                    <img src="src/imagens/corsola.png" width="500px" alt="Corsola" class="imagem-pokemon">
+                </div>
+                                        
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto"> Corsola é um Pokémon antozoano pequeno, rosa e arredondado com crescimentos semelhantes a galhos nas costas, semelhantes aos corais. Há um chifre menor e sem corte em sua testa e tem olhos pretos e ovais. Tem um lado de baixo branco, que salpica para os lados. Suas quatro pernas e dois braços são rombudos e atarracados.
+
+                        Encontrado nas águas quentes e rasas dos mares do sul, Corsola requer água limpa para viver. Se seu habitat estiver sujo, os crescimentos em suas costas ficam descoloridos e degeneram. No entanto, quando está saudável, seus crescimentos caem regularmente e voltam a crescer; é capaz de regenerá-los ao longo de uma única noite. Forma grandes grupos sociais. Ocasionalmente, esses grupos ficam tão grandes que as pessoas podem viver em cima deles, como é o caso de Pacifidlog Town . O chifre de Corsola é um material valioso, comumente usado para joias e esculturas, como visto no anime . Pokémon menores como Horsea e Luvdisc às vezes são protegidos pelos ramos de Corsola e até oferecem proteção contra inimigos.
+                    </p>
+                </div>
+
+            </li>
+
+            <li class="cartao fundo4">
+                <div class="informacoes">
+                    <h2 class="nome">Torterra</h2>
+                    <p class="vida">HP 500 </p>
+                </div>
+                                        
+                <div class="container-imagem">
+                    <img src="src/imagens/tortuga.webp" width="500px" alt="tortuga" class="imagem-pokemon">
+                </div>
+                                        
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto"> Torterra possuem uma concha gigante, sua aparência que se assemelha a um dinossauro. Sobre esta concha repousada como uma única árvore e três triangulares, extensões de pedra de cor cinza que se assemelham os picos das montanhas, em oposição aos dois arbustos de Grote. A concha também tem uma padronização de castanho, assemelhando-se no solo, ao lado da árvore, e um aro branco que forma uma continuação em parte da frente do invólucro, o aspecto mais semelhante a um diamante de basebol. 
+                    </p>
+                </div>
+
+            </li>
+
+
+            <li class="cartao fundo3">
+                <div class="informacoes">
+                    <h2 class="nome">Mew</h2>
+                    <p class="vida">HP 2000 </p>
+                </div>
+                                        
+                <div class="container-imagem">
+                    <img src="src/imagens/mew.webp" width="500px" alt="Mew" class="imagem-pokemon">
+                </div>
+                                        
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto"> Mew é um Pokémon ultra raro que qualquer jogador dos tempo de Red/Blue alguma vez sonhou em capturar, ao passo que o Ditto é uma geleca rosa usada normalmente como mero reprodutor. Esteticamente, você pode não ver muita coisa de semelhante entre uma gosma e um animal indefinido, mas se olhar com atenção, descobrirá os detalhes. Nos jogos da série, Mew e Ditto tem a mesma cor normal (rosa) e como Shiny também (azul). Além disso, compartilham a mesma massa (8.8lbs), ambos são assexuados (não possuem gênero) e ganham destaque por ser Pokémon muito enigmáticos. 
+                    </p>
+                </div>
+
+            </li>
+               
+            
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="src/imagens/seta.png" alt="seta avançar">
+
+        </button>
+
+
+    </main>
+  <script src="src/js/index.js"></script>
+</body>
+</html>
